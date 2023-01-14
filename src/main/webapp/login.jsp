@@ -18,7 +18,7 @@
         <div class='container'>
             <h1>Log in</h1>
 
-            <form method='post' action='proccessLogin'>
+            <form method='post' action='processLogin'>
                 <label for="email">Email</label>
                 <input type="email" name='email' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id='email' class='form-control mb-3' placeholder='email'>
 

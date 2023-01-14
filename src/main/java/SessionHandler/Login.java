@@ -27,10 +27,10 @@ import javax.sql.DataSource;
  */
 
 @WebServlet (name = "Login", urlPatterns = {
-    "/proccessLogin"
+    "/processLogin"
 })
 public class Login extends HttpServlet {
-    @Resource (mappedName="jdbc:derby://localhost:1527")
+    @Resource (mappedName="jdbc/blogapp")
     private DataSource dataSource;
     private String sqlCommand;
     private Logger logger; 

@@ -29,7 +29,7 @@ import javax.sql.DataSource;
 })
 public class Signup extends HttpServlet {
  
-    @Resource (mappedName="jdbc:derby://localhost:1527/blogapp;create=true [app on APP]")
+    @Resource (mappedName="jdbc/blogapp")
     private DataSource dataSource;
     private String sqlCommand;
     private Logger logger; 

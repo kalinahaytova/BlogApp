@@ -27,7 +27,7 @@ import javax.sql.DataSource;
  */
 
 @WebServlet (name = "Login", urlPatterns = {
-    "/processLogin"
+    "/proccessLogin"
 })
 public class Login extends HttpServlet {
     @Resource (mappedName="jdbc:derby://localhost:1527")

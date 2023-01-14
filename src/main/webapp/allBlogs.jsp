@@ -21,7 +21,7 @@
             <h1 class="my-6 border-bottom border-success">All Articles</h1>
             <c:choose>
                 <c:when test='${blogList==null || blogList.size()==0}'>
-                <h2>No articles were found</h2> 
+                <h2>No articles were found.</h2> 
                 </c:when>
                 <c:otherwise>
                     <ul class="col-6 list-group list-group-flush my-3 d-flex justify-content-center">

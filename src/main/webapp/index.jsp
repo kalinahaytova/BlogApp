@@ -24,9 +24,9 @@
             <div class="row row-cols-1 row-cols-md-3 mb-3 text-center justify-content-center">
                 <div class="col">
                     <div class="card mb-4 shadow-sm">
-                        <h1 class="card-title pricing-card-title card-header">Your articles<small class="text-muted"></small></h1>
+                        <h1 class="card-title pricing-card-title card-header">My articles<small class="text-muted"></small></h1>
                         <div class="card-body">
-                            <p>Your own articles</p>
+                            <p>&#11015;</p>
                             <a class="w-100 btn btn-lg btn-outline-primary nav-link" aria-current="page" href='UserBlogs.jsp'>Check it out</a>
 
                         </div>
@@ -36,7 +36,7 @@
                     <div class="card mb-4 shadow-sm">
                         <h1 class="card-title pricing-card-title card-header">All articles<small class="text-muted"></small></h1>
                         <div class="card-body">
-                            <p>New articles</p>
+                            <p>&#11015;</p>
                             <a class="w-100 btn btn-lg btn-outline-primary nav-link" aria-current="page" href="allBlogs.jsp">Check it out</a>
                         </div>
                     </div>
